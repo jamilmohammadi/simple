@@ -1,0 +1,41 @@
+<!--Design and Developed By Jamil Mohammadi-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JAMIL</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+	<header>
+		<a class="logo" href=""><img src="img/logo-3.png" width="150"></a>
+		<div class="menu-toggle"></div>
+		<nav>
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Team</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+	</header>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu-toggle').click(function(){
+				$('.menu-toggle').toggleClass('active')
+				$('nav').toggleClass('active')
+			})
+		})
+	</script>
+</body>
+</html> 
